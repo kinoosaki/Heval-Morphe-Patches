@@ -45,7 +45,7 @@ class GeneratePatchesReadmeTest(unittest.TestCase):
             patch("Disable ads", WITHOUT_ICON, "No Icon", "#123456"),
         ]}
         # Run from a temp dir so the icon lookup is proven to be relative to the repo, not the CWD.
-        with tempfile.TemporaryDirectory(prefix="heval-readme-") as tmp:
+        with tempfile.TemporaryDirectory(prefix="kinos-readme-") as tmp:
             directory = Path(tmp)
             (directory / "patches-list.json").write_text(json.dumps(data), encoding="utf-8")
             readme = directory / "README.md"

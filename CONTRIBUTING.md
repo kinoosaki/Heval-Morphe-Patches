@@ -7,7 +7,7 @@ trust what ships. Reading this first saves you a round of review.
 
 ## Before you start
 
-- **New app or big feature:** open an [issue](https://github.com/heval99/Heval-Morphe-Patches/issues/new/choose)
+- **New app or big feature:** open an [issue](https://github.com/kinoosaki/Kinos-Patches/issues/new/choose)
   first and say what you want to patch and why. Check `docs/patch-blocklist.md` for apps that were
   tried and the reason they were dropped or blocked.
 - **Small fix or an update to a newer app version:** a pull request is fine without an issue.
