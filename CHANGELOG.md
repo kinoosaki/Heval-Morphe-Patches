@@ -1,3 +1,121 @@
+## 4.0.0 (2026-11-18)
+
+### ⚠️ Breaking change
+- The bundle no longer contains any patch for the other 104 apps. Anyone who wants them needs the previous release or this repository's history
+
+### 🗑️ Removed apps
+- #Notepad
+- 365Scores
+- 433
+- Action Launcher
+- Add Music
+- AiScore
+- Alarm Clock Xtreme
+- Allente
+- Aqua Mail
+- B.T.
+- BBC News
+- Beeper
+- Berlingske
+- BeSoccer
+- BLE Scanner
+- Bleacher Report
+- Blockbuster
+- BlueMail
+- Bluetooth Scanner
+- Bold
+- Bookly
+- BoxBox
+- Brave Browser
+- Brevent
+- Business Calendar 2
+- Castbox
+- CCleaner
+- CREX
+- Digi Sport
+- DroidCam
+- DRTV
+- Easy Homescreen
+- EasyNotes
+- Ekstra Bladet
+- Eurosport
+- EX File Manager
+- FairEmail
+- Firefox
+- Firefox Focus
+- FishBuddy
+- Fishing Points
+- Flashscore
+- Forza Football
+- FotMob
+- Futbin
+- FX File Explorer
+- Fyens Stiftstidende
+- GPS Map Camera Editor
+- Hevy
+- Hyperion Launcher
+- Interval Timer
+- IrCode Finder
+- jetAudio
+- JydskeVestkysten
+- Jyllands Posten
+- L'Équipe
+- Librera
+- Livescore
+- mail.com
+- Mango Launcher
+- Minimalist Launcher
+- Monefy
+- Moneycontrol
+- Moon+ Reader
+- MyFitnessPal
+- Native Camera
+- Niagara Launcher
+- Nordisk Film+
+- Nordjyske
+- NotiAlarm
+- OneCricket
+- OneFootball
+- OsmAnd
+- Pi Music Player
+- Pocket Color Wheel
+- Podcast Republic
+- Politiken
+- Pro Launcher
+- RTÉ News
+- Samsung Keyboard
+- Shazam
+- Simple Radio
+- SmartWOD Timer
+- Sofascore
+- SoundHound
+- Structured
+- Taskito
+- The Guardian
+- The Wall Street Journal
+- TimeTune
+- Transfermarkt
+- Truecaller
+- TV 2 Nyheder
+- TV 2 Play
+- TV Smarters Player Expert
+- UpNote
+- VesselFinder
+- Via
+- Viaplay
+- Weather Underground
+- WeMuslim
+- Yahoo Sports
+- YouCut
+- YouSee Play
+- Århus Stiftstidende
+- All apps
+
+### 🔧 Other
+- New: Ship Tasker only
+
+**Download:** [patches-4.0.0.mpp](https://github.com/kinoosaki/Heval-Morphe-Patches/releases/download/v4.0.0/patches-4.0.0.mpp)
+
 ## 4.0.0-dev.1 (2026-11-18)
 
 ### ⚠️ Breaking change
