@@ -44,7 +44,7 @@ Older or newer versions may work but are not guaranteed; if an app update breaks
 [open an issue](https://github.com/kinoosaki/Kinos-Patches/issues).
 
 <!-- PATCHES_START EXPANDED -->
-> **[v4.0.0](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-18
+> **[v4.0.1-dev.1](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.0.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-18
 
 🚫 ads&nbsp;&nbsp;🛡️ telemetry / tracking&nbsp;&nbsp;💎 premium / pro&nbsp;&nbsp;🔑 license check&nbsp;&nbsp;🔕 prompts / notifications&nbsp;&nbsp;🧪 experimental
 
@@ -66,7 +66,7 @@ Older or newer versions may work but are not guaranteed; if an app update breaks
 Verified on: `6.7.8`
 
 | Patch | What it does | Default |
-|---|---|---|:-:|
+|---|---|:-:|
 | 💎 **Enable Full Version** | Unlocks the full version. | ✅ |
 | 🧩 **GmsCore support** | Lets you sign in with Google through MicroG RE. | ➖ |
 
