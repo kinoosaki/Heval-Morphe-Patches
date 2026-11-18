@@ -2,12 +2,12 @@ group = "app.template"
 
 patches {
     about {
-        name = "Heval's Morphe Patches"
-        description = "Patches for apps I like"
-        source = "https://github.com/heval99/Heval-Morphe-Patches"
-        author = "heval99"
-        contact = "https://github.com/heval99"
-        website = "https://morphe.software/add-source?github=heval99/Heval-Morphe-Patches"
+        name = "Kino's Patches"
+        description = "Tasker patches for Morphe"
+        source = "https://github.com/kinoosaki/Kinos-Patches"
+        author = "kinoosaki"
+        contact = "https://kinosaki.in"
+        website = "https://morphe.software/add-source?github=kinoosaki/Kinos-Patches"
         license = "GPLv3"
     }
 }
