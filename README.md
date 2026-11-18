@@ -40,7 +40,7 @@ versions may work but aren't guaranteed; if an app update breaks a patch,
 [open an issue](https://github.com/heval99/Heval-Morphe-Patches/issues/new/choose).
 
 <!-- PATCHES_START EXPANDED -->
-> **[v3.0.0](https://github.com/heval99/Heval-Morphe-Patches/releases/tag/v3.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;**105** apps&nbsp;&nbsp;•&nbsp;&nbsp;**347** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-16
+> **[v3.1.0-dev.1](https://github.com/kinoosaki/Heval-Morphe-Patches/releases/tag/v3.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;**106** apps&nbsp;&nbsp;•&nbsp;&nbsp;**349** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-18
 
 🚫 ads&nbsp;&nbsp;🛡️ telemetry / tracking&nbsp;&nbsp;💎 premium / pro&nbsp;&nbsp;🔑 license check&nbsp;&nbsp;🔕 prompts / notifications&nbsp;&nbsp;🧪 experimental
 
@@ -157,7 +157,7 @@ versions may work but aren't guaranteed; if an app update breaks a patch,
 | <img src="assets/icons/com.astrapaging.vff.png" width="20" height="20" alt=""> | **VesselFinder** | 🚫 🔑 2 | `6.7.8` | APKM | [Play](https://play.google.com/store/apps/details?id=com.astrapaging.vff) |
 | <img src="assets/icons/com.wunderground.android.weather.png" width="20" height="20" alt=""> | **Weather Underground** | 🚫 1 | `6.20.1` | APK | [Play](https://play.google.com/store/apps/details?id=com.wunderground.android.weather) |
 
-#### 📝 Productivity & notes <sub>9 apps</sub>
+#### 📝 Productivity & notes <sub>10 apps</sub>
 
 | | App | Patches | Latest verified | Type | Google Play |
 |:-:|---|---|---|:-:|:-:|
@@ -167,6 +167,7 @@ versions may work but aren't guaranteed; if an app update breaks a patch,
 | <img src="assets/icons/easynotes.notes.notepad.notebook.privatenotes.note.png" width="20" height="20" alt=""> | **EasyNotes** | 🚫 💎 2 | `1.3.65.1019` | APKM | [Play](https://play.google.com/store/apps/details?id=easynotes.notes.notepad.notebook.privatenotes.note) |
 | <img src="assets/icons/com.ztnstudio.notepad.png" width="20" height="20" alt=""> | **#Notepad** | 🚫 💎 2 | `5.4.4.19080` | APKM | [Play](https://play.google.com/store/apps/details?id=com.ztnstudio.notepad) |
 | <img src="assets/icons/io.unorderly.structured.png" width="20" height="20" alt=""> | **Structured** | 💎 🔑 2 | `3.9.6` | APKM | [Play](https://play.google.com/store/apps/details?id=io.unorderly.structured) |
+| <img src="assets/icons/net.dinglisch.android.taskerm.png" width="20" height="20" alt=""> | **Tasker** | 💎 🧩 2 | `6.7.8` | APK | [Play](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) |
 | <img src="assets/icons/com.fenchtose.reflog.png" width="20" height="20" alt=""> | **Taskito** | 💎 🧩 2 | `1.3.4` | APK | [Play](https://play.google.com/store/apps/details?id=com.fenchtose.reflog) |
 | <img src="assets/icons/com.gmail.jmartindev.timetune.png" width="20" height="20" alt=""> | **TimeTune** | 💎 1 | `5.6.3` | APK | [Play](https://play.google.com/store/apps/details?id=com.gmail.jmartindev.timetune) |
 | <img src="assets/icons/com.getupnote.android.png" width="20" height="20" alt=""> | **UpNote** | 💎 1 | `9.22.8` | APKM | [Play](https://play.google.com/store/apps/details?id=com.getupnote.android) |
@@ -1186,6 +1187,17 @@ Verified on: `3.9.6`
 |---|---|:-:|
 | 🔑 **Disable license check** | Disables the Play Store license check so the app starts. | ✅ |
 | 💎 **Enable Premium** | Unlocks Structured Pro. | ✅ |
+
+</details>
+<details>
+<summary><img src="assets/icons/net.dinglisch.android.taskerm.png" width="16" height="16" alt=""> <b>Tasker</b> &nbsp;·&nbsp; 2 patches &nbsp;·&nbsp; <code>net.dinglisch.android.taskerm</code></summary>
+
+Verified on: `6.7.8`
+
+| Patch | What it does | Default |
+|---|---|:-:|
+| 💎 **Enable Full Version** | Unlocks the full version. | ✅ |
+| 🧩 **GmsCore support** | Lets you sign in with Google through MicroG RE. | ➖ |
 
 </details>
 <details>

@@ -1,3 +1,10 @@
+## 3.1.0-dev.1 (2026-11-18)
+
+### 🆕 New apps
+- **Tasker** `6.7.8` - Enable Full Version, GmsCore support
+
+**Download:** [patches-3.1.0-dev.1.mpp](https://github.com/kinoosaki/Heval-Morphe-Patches/releases/download/v3.1.0-dev.1/patches-3.1.0-dev.1.mpp)
+
 ## 3.0.0 (2026-11-16)
 
 ### ⚠️ Breaking change
