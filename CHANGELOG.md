@@ -1,3 +1,10 @@
+## 4.0.1 (2026-11-18)
+
+### 🔧 Other
+- Fixed: Rename to Kino's Patches and rewrite the README
+
+**Download:** [patches-4.0.1.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.0.1/patches-4.0.1.mpp)
+
 ## 4.0.1-dev.1 (2026-11-18)
 
 ### 🔧 Other
