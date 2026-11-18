@@ -14,7 +14,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[3]
 SCRIPT = ROOT / ".github/scripts/generate_patches_readme.py"
-WITH_ICON = "com.shazam.android"
+WITH_ICON = "net.dinglisch.android.taskerm"
 WITHOUT_ICON = "com.example.noicon"
 
 
@@ -41,7 +41,7 @@ class GeneratePatchesReadmeTest(unittest.TestCase):
         if (ROOT / "assets/icons" / f"{WITHOUT_ICON}.png").exists():
             raise AssertionError(f"{WITHOUT_ICON} must not have an icon")
         data = {"version": "1.2.3", "patches": [
-            patch("Disable ads", WITH_ICON, "Shazam", "#0088FF"),
+            patch("Disable ads", WITH_ICON, "Tasker", "#0088FF"),
             patch("Disable ads", WITHOUT_ICON, "No Icon", "#123456"),
         ]}
         # Run from a temp dir so the icon lookup is proven to be relative to the repo, not the CWD.
@@ -62,9 +62,9 @@ class GeneratePatchesReadmeTest(unittest.TestCase):
         return next(l for l in self.lines if l.startswith(prefix) and needle in l)
 
     def test_app_with_icon_uses_it_in_the_overview(self):
-        row = self.line("| ", "**Shazam**")
+        row = self.line("| ", "**Tasker**")
         self.assertTrue(row.startswith(
-            f'| <img src="assets/icons/{WITH_ICON}.png" width="20" height="20" alt=""> | **Shazam** |'), row)
+            f'| <img src="assets/icons/{WITH_ICON}.png" width="20" height="20" alt=""> | **Tasker** |'), row)
         self.assertNotIn("img.shields.io", row)
 
     def test_app_without_icon_keeps_the_swatch(self):
@@ -75,9 +75,9 @@ class GeneratePatchesReadmeTest(unittest.TestCase):
         self.assertNotIn("assets/icons", row)
 
     def test_details_summary_shows_the_icon(self):
-        summary = self.line("<summary>", "Shazam")
+        summary = self.line("<summary>", "Tasker")
         self.assertTrue(summary.startswith(
-            f'<summary><img src="assets/icons/{WITH_ICON}.png" width="16" height="16" alt=""> <b>Shazam</b>'),
+            f'<summary><img src="assets/icons/{WITH_ICON}.png" width="16" height="16" alt=""> <b>Tasker</b>'),
             summary)
 
     def test_details_summary_without_icon_is_unchanged(self):
