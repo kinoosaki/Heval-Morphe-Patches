@@ -364,8 +364,8 @@ class RealSourcesTest(unittest.TestCase):
         index = notes.scan_patch_dirs(ROOT)
         if not index:
             self.skipTest("patch sources not present")
-        self.assertIn("com.truecaller", index.get("truecaller", set()))
-        self.assertIn("scores365", index)
+        self.assertIn("net.dinglisch.android.taskerm", index.get("tasker", set()))
+        self.assertNotIn("truecaller", index)
 
 
 class ReleasercTest(unittest.TestCase):
