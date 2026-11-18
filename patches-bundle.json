@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-18T11:06:44",
-  "description": "## 3.1.0-dev.1 (2026-11-18)\n\n### 🆕 New apps\n- **Tasker** `6.7.8` - Enable Full Version, GmsCore support\n\n**Download:** [patches-3.1.0-dev.1.mpp](https://github.com/kinoosaki/Heval-Morphe-Patches/releases/download/v3.1.0-dev.1/patches-3.1.0-dev.1.mpp)",
-  "download_url": "https://github.com/kinoosaki/Heval-Morphe-Patches/releases/download/v3.1.0-dev.1/patches-3.1.0-dev.1.mpp",
+  "created_at": "2026-11-18T11:35:21",
+  "description": "## 3.1.0 (2026-11-18)\n\n### 🆕 New apps\n- **Tasker** `6.7.8` - Enable Full Version, GmsCore support\n\n**Download:** [patches-3.1.0.mpp](https://github.com/kinoosaki/Heval-Morphe-Patches/releases/download/v3.1.0/patches-3.1.0.mpp)",
+  "download_url": "https://github.com/kinoosaki/Heval-Morphe-Patches/releases/download/v3.1.0/patches-3.1.0.mpp",
   "signature_download_url": "",
-  "version": "3.1.0-dev.1"
+  "version": "3.1.0"
 }
