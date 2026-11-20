@@ -23,7 +23,7 @@ Two patches, one app, no surprises.
 | 💎 **Enable Full Version** | Unlocks Tasker's full version. | ✅ |
 | 🧩 **GmsCore support** | Lets Tasker sign in with Google through MicroG RE. | ➖ |
 
-Verified on Tasker `6.7.8`. Other versions may work but are not guaranteed.
+Supports Tasker `6.7.8` and `6.7.9`; `6.7.8` is the last version the smoke tests ran on.
 
 ## 🚀 Quick start
 
@@ -39,8 +39,8 @@ Verified on Tasker `6.7.8`. Other versions may work but are not guaranteed.
 
 ## 🩹 Patches list
 
-Tasker `6.7.8` is the version the patches were verified on (shown in Morphe Manager).
-Older or newer versions may work but are not guaranteed; if an app update breaks a patch,
+Tasker `6.7.8` and `6.7.9` are the supported versions (shown in Morphe Manager); `6.7.8` is
+the last one the smoke tests ran on. If a Tasker update breaks a patch,
 [open an issue](https://github.com/kinoosaki/Kinos-Patches/issues).
 
 <!-- PATCHES_START EXPANDED -->

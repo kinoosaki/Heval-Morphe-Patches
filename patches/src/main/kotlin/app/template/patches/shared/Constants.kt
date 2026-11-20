@@ -41,14 +41,23 @@ object Constants {
     // only: rf.w$a -> nt.x$a, rf.a0 -> nt.b0). TaskerSmokeTest passes, including every login-only
     // GmsCore assertion (the four sign-in actions routed, location/Home/telemetry/credentials
     // clients, FCM, Dynamite and the c2dm manifest entries untouched). Emulator not re-run.
-    // 2026-11-18: restored after the 2026-11-14 drop (6.7.9 is paid on Play and no trusted mirror
-    // carries it). The target stays 6.7.8 (5454), the last verified APK; nothing was re-checked.
+    // 2026-11-18: restored after the 2026-11-14 drop.
+    // 2026-11-20: 6.7.9 (versionCode 5455) added as a target. Its APK comes from
+    // https://tasker.joaoapps.com/download.html, which is the source this bundle uses for Tasker
+    // from now on (and for later versions). Checked against that APK: the v2 certificate is the same
+    // CN=Lee Wilmot signer, and every anchor the two patches use is still there (LicenseStatus with
+    // its Licensed/Retry/Unlicensed fields, the Licensed/Retrying/Unlicensed labels, "Checking
+    // cached only", the GmsCore action strings, "<<default account>>" and the sign-in classes).
+    // The smoke test still runs on 6.7.8 only (6.7.9 is not in the fixture store).
     val COMPATIBILITY_TASKER = Compatibility(
         name = "Tasker",
         packageName = "net.dinglisch.android.taskerm",
         apkFileType = ApkFileType.APK,
         appIconColor = 0x4CAF50,
         signatures = setOf("973fe25b9be28fb7436d49582b04277767c852539be31783d134a55621b6636d"), // CN=Lee Wilmot
-        targets = listOf(AppTarget(version = "6.7.8", versionCode = 5454))
+        targets = listOf(
+            AppTarget(version = "6.7.8", versionCode = 5454),
+            AppTarget(version = "6.7.9", versionCode = 5455),
+        )
     )
 }
