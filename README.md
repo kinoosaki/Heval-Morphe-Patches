@@ -23,15 +23,18 @@ Two patches, one app, no surprises.
 | 💎 **Enable Full Version** | Unlocks Tasker's full version. | ✅ |
 | 🧩 **GmsCore support** | Lets Tasker sign in with Google through MicroG RE. | ➖ |
 
-Supports Tasker `6.7.8` and `6.7.9`; `6.7.8` is the last version the smoke tests ran on.
+Supports Tasker `6.7.9` only, installed from
+[tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html).
 
 ## 🚀 Quick start
 
 1. Install [Morphe Manager](https://morphe.software).
-2. Tap **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**,
+2. Install Tasker `6.7.9` from
+   [tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html).
+3. Tap **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**,
    or add this repository as a patch source by hand:
    `https://github.com/kinoosaki/Kinos-Patches`
-3. Pick **Tasker**, choose the patches you want and patch.
+4. Pick **Tasker**, choose the patches you want and patch.
 
 **Stable or pre-release?** The stable channel follows the
 [latest release](https://github.com/kinoosaki/Kinos-Patches/releases/latest). Turn on
@@ -39,8 +42,9 @@ Supports Tasker `6.7.8` and `6.7.9`; `6.7.8` is the last version the smoke tests
 
 ## 🩹 Patches list
 
-Tasker `6.7.8` and `6.7.9` are the supported versions (shown in Morphe Manager); `6.7.8` is
-the last one the smoke tests ran on. If a Tasker update breaks a patch,
+Tasker `6.7.9` is the only supported version (shown in Morphe Manager). Install it from
+[tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html) - that page is the
+only APK source this bundle targets. If a Tasker update breaks a patch,
 [open an issue](https://github.com/kinoosaki/Kinos-Patches/issues).
 
 <!-- PATCHES_START EXPANDED -->

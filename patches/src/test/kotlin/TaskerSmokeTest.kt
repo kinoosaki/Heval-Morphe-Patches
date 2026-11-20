@@ -45,7 +45,8 @@ class TaskerSmokeTest {
             apk = apk,
             workDir = workDir,
             pkg = PKG,
-            version = "6.7.8",
+            version = "6.7.9",
+            versionCode = 5455,
             patchNames = setOf("Enable Full Version", "GmsCore support"),
             allPatches = loadAllPatches(newestPatchBundle(root)),
         )
