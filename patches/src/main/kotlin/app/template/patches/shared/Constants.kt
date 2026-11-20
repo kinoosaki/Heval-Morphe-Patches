@@ -33,8 +33,9 @@ object Constants {
     // isGooglePlayServicesAvailable, location, Home/Matter, Maps, Dynamite, FCM and the c2dm
     // manifest entries are untouched. Smoke test (bytecode + manifest) and a CLI run without -f;
     // 2026-11-03 emulator (patched build of the release batch, stock control): Google Drive backup sign-in showed MicroG RE's account picker and signed in.
-    // 2026-11-04: updated to version 6.7.8 (versionCode 5454; APKMirror universal APK, arm64-v8a +
-    // armeabi-v7a, same CN=Lee Wilmot signer; paid, so not on the spare Play account). The startup
+    // 2026-11-04: updated to version 6.7.8 (versionCode 5454; universal APK from
+    // https://tasker.joaoapps.com/download.html - arm64-v8a + armeabi-v7a, same CN=Lee Wilmot
+    // signer; paid, so not on the spare Play account). The startup
     // result helper now takes (result, Context, boolean) instead of (result, boolean, Context), so
     // LicenseResultFingerprint accepts either order; the other anchors are unchanged (R8 renames
     // only: rf.w$a -> nt.x$a, rf.a0 -> nt.b0). TaskerSmokeTest passes, including every login-only
