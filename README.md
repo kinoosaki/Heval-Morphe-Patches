@@ -44,7 +44,7 @@ the last one the smoke tests ran on. If a Tasker update breaks a patch,
 [open an issue](https://github.com/kinoosaki/Kinos-Patches/issues).
 
 <!-- PATCHES_START EXPANDED -->
-> **[v4.0.1](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-18
+> **[v4.0.2-dev.1](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.0.2-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-20
 
 🚫 ads&nbsp;&nbsp;🛡️ telemetry / tracking&nbsp;&nbsp;💎 premium / pro&nbsp;&nbsp;🔑 license check&nbsp;&nbsp;🔕 prompts / notifications&nbsp;&nbsp;🧪 experimental
 
@@ -54,7 +54,7 @@ the last one the smoke tests ran on. If a Tasker update breaks a patch,
 
 | | App | Patches | Latest verified | Type | Google Play |
 |:-:|---|---|---|:-:|:-:|
-| <img src="assets/icons/net.dinglisch.android.taskerm.png" width="20" height="20" alt=""> | **Tasker** | 💎 🧩 2 | `6.7.8` | APK | [Play](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) |
+| <img src="assets/icons/net.dinglisch.android.taskerm.png" width="20" height="20" alt=""> | **Tasker** | 💎 🧩 2 | `6.7.9` <sub>+1 older</sub> | APK | [Play](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) |
 
 ### 🔍 Patch details
 
@@ -63,7 +63,7 @@ the last one the smoke tests ran on. If a Tasker update breaks a patch,
 <details>
 <summary><img src="assets/icons/net.dinglisch.android.taskerm.png" width="16" height="16" alt=""> <b>Tasker</b> &nbsp;·&nbsp; 2 patches &nbsp;·&nbsp; <code>net.dinglisch.android.taskerm</code></summary>
 
-Verified on: `6.7.8`
+Verified on: `6.7.9`, `6.7.8`
 
 | Patch | What it does | Default |
 |---|---|:-:|
