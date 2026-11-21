@@ -36,7 +36,7 @@ to your fork) to the branch it runs on, and those commits must never end up in a
 | The app's package, signer and verified version | `COMPATIBILITY_<APP>` in `patches/src/main/kotlin/app/template/patches/shared/Constants.kt` |
 | README category | `.github/scripts/app-categories.json` |
 | Smoke tests | `patches/src/test/kotlin/<App>SmokeTest.kt` |
-| Runtime code a patch needs | `extensions/<module>/` (only when inline smali is not maintainable; copy `extensions/shazam`) |
+| Runtime code a patch needs | `extensions/<module>/` (only when inline smali is not maintainable; copy `extensions/gmscore`) |
 
 **Do not edit generated files:** `patches-list.json`, `patches-bundle.json`, the patch list in
 `README.md`, `CHANGELOG.md` and the version in `gradle.properties` are written by the release
