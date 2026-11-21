@@ -55,6 +55,12 @@ object Constants {
         apkFileType = ApkFileType.APK,
         appIconColor = 0x4CAF50,
         signatures = setOf("973fe25b9be28fb7436d49582b04277767c852539be31783d134a55621b6636d"), // CN=Lee Wilmot
-        targets = listOf(AppTarget(version = "6.7.9", versionCode = 5455)),
+        targets = listOf(
+            AppTarget(
+                version = "6.7.9",
+                versionCode = 5455,
+                description = "For paid versions, download the APK directly from https://tasker.joaoapps.com/download.html.",
+            ),
+        ),
     )
 }

@@ -6,7 +6,6 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstructionsWithLa
 import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import app.morphe.patcher.util.smali.ExternalLabel
-import app.morphe.util.addInstructionsAtControlFlowLabel
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 
@@ -56,18 +55,6 @@ fun MutableMethod.addInstructionsWithLabelsChecked(
 }
 
 /**
- * Checked [addInstructionsAtControlFlowLabel]: inserts before the instruction at [index] and moves
- * its labels to the first inserted instruction, so branches to [index] run the inserted code too.
- */
-fun MutableMethod.addInstructionsAtControlFlowLabelChecked(
-    index: Int,
-    smaliInstructions: String,
-    vararg externalLabels: ExternalLabel,
-) = checkedInsert("addInstructionsAtControlFlowLabel", smaliInstructions) {
-    addInstructionsAtControlFlowLabel(index, smaliInstructions, *externalLabels)
-}
-
-/**
  * Checked [addInstruction] at [index]. The patcher's version silently uses only the first
  * compiled instruction, so this one also refuses snippets that name more than one.
  */
@@ -77,20 +64,6 @@ fun MutableMethod.addInstructionChecked(index: Int, smaliInstruction: String) =
 /** Checked [addInstruction] appended at the end of the method. */
 fun MutableMethod.addInstructionChecked(smaliInstruction: String) =
     checkedInsert("addInstruction", smaliInstruction, single = true) { addInstruction(smaliInstruction) }
-
-/**
- * Throws unless the instruction at [index] exists and is no branch or switch target. Code inserted
- * at [index] goes in front of that instruction, but its labels stay on it, so a jump there would
- * skip the inserted code (e.g. a value forced right after the instruction that produced it).
- * [what] names the insertion in the error.
- */
-fun MutableMethod.requireNoBranchTargetAt(index: Int, what: String) {
-    val labels = implementation?.instructions?.getOrNull(index)?.location?.labels
-        ?: throw PatchException("${signature()}: $what: there is no instruction $index to insert before")
-    if (labels.isNotEmpty()) {
-        throw PatchException("${signature()}: $what: instruction $index is a branch target, a jump there would skip the insert")
-    }
-}
 
 private inline fun MutableMethod.checkedInsert(
     api: String,
