@@ -1,3 +1,10 @@
+## 4.1.1-dev.1 (2026-11-21)
+
+### 🔧 Other
+- Faster: Drop unused extension modules
+
+**Download:** [patches-4.1.1-dev.1.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.1-dev.1/patches-4.1.1-dev.1.mpp)
+
 ## 4.1.0 (2026-11-21)
 
 ### 📱 Tasker `6.7.9`
