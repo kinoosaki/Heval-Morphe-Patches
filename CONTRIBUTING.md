@@ -77,7 +77,8 @@ to it would send every user to a different bundle: a pull request that touches i
 ## Tests and checking your work
 
 Each app has one `<App>SmokeTest.kt` that patches the real APK and asserts on the emitted bytecode.
-The tests skip when the APK is missing (APKs are never committed), so run them locally:
+Tag smoke-test classes with JUnit's `@Tag("smoke")`; `:patches:taskerSmokeTest` selects that tag.
+Smoke tests skip when the APK is missing (APKs are never committed), so run them locally:
 
 ```
 .\gradlew -Pkotlin.daemon.jvmargs=-Xmx4g -Dorg.gradle.jvmargs=-Xmx3g :patches:taskerSmokeTest --tests <App>SmokeTest

@@ -111,9 +111,10 @@ Verified on: `6.7.9`
 
 ## 🤖 How the patches are made
 
-> **AI-generated patches.** The code analysis, patch code and smoke tests are written with AI
-> assistance. Before each release they are verified by applying them to the real APK (smoke
-> tests in `patches/src/test/`) and checking the patched code. Review before use; no warranty.
+> **AI-assisted patches.** The code analysis, patch code and smoke tests are written with AI
+> assistance. Smoke tests apply patches to matching APK fixtures and check emitted bytecode, but
+> APKs are not committed and tests skip when a fixture is absent. Check the target version and
+> verify the patched app before use; no warranty.
 
 ## 🛠️ Building
 
