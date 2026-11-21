@@ -41,19 +41,20 @@ object Constants {
     // GmsCore assertion (the four sign-in actions routed, location/Home/telemetry/credentials
     // clients, FCM, Dynamite and the c2dm manifest entries untouched). Emulator not re-run.
     // 2026-11-18: restored after the 2026-11-14 drop.
-    // 2026-11-20: 6.7.9 (versionCode 5455) is the only target; 6.7.8 (5454) was dropped the same
-    // day. Checked against the 6.7.9 APK: same CN=Lee Wilmot v2 signer, and every anchor the two
-    // patches use is still present (LicenseStatus with its Licensed/Retry/Unlicensed fields, the
-    // Licensed/Retrying/Unlicensed labels, "Checking cached only", the GmsCore action strings,
-    // "<<default account>>" and the sign-in classes). TaskerSmokeTest now expects a 6.7.9 fixture
-    // at apks/tasker/base.apk and skips when it is absent (CI has no fixture), so the patched
-    // bytecode has not been re-run on 6.7.9 yet.
+    // 2026-11-20: 6.7.9 (versionCode 5455) was the only target. Support for 6.7.8 (5454) is
+    // restored 2026-11-21 because its anchors were previously verified: the LicenseStatus labels,
+    // "Checking cached only", GmsCore actions, "<<default account>>" and sign-in classes all match.
+    // Both APKs use the CN=Lee Wilmot signer. Smoke fixtures belong at apks/tasker/6.7.8/base.apk
+    // and apks/tasker/6.7.9/base.apk; tests skip when a fixture is absent.
     val COMPATIBILITY_TASKER = Compatibility(
         name = "Tasker",
         packageName = "net.dinglisch.android.taskerm",
         apkFileType = ApkFileType.APK,
         appIconColor = 0x4CAF50,
         signatures = setOf("973fe25b9be28fb7436d49582b04277767c852539be31783d134a55621b6636d"), // CN=Lee Wilmot
-        targets = listOf(AppTarget(version = "6.7.9", versionCode = 5455)),
+        targets = listOf(
+            AppTarget(version = "6.7.8", versionCode = 5454),
+            AppTarget(version = "6.7.9", versionCode = 5455),
+        ),
     )
 }

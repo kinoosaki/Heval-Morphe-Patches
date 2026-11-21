@@ -84,7 +84,8 @@ Smoke tests skip when the APK is missing (APKs are never committed), so run them
 .\gradlew -Pkotlin.daemon.jvmargs=-Xmx4g -Dorg.gradle.jvmargs=-Xmx3g :patches:taskerSmokeTest --tests <App>SmokeTest
 ```
 
-Put the APK at `apks/<slug>/base.apk` first. The test fails if the APK's package or version differs
+Put Tasker APK fixtures at `apks/tasker/6.7.8/base.apk` and/or `apks/tasker/6.7.9/base.apk`.
+The test fails if an APK's package or version differs
 from the version it passes or from the patch's target, which is on purpose.
 
 "Applied" only means the patch ran. In your pull request, say how you confirmed the real effect:

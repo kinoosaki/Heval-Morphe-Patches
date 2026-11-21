@@ -79,7 +79,7 @@ tasks.register<Test>("taskerSmokeTest") {
     inputs.files(layout.buildDirectory.file("libs/patches-${project.version}.mpp"))
         .withPropertyName("patchBundle")
         .withPathSensitivity(PathSensitivity.RELATIVE)
-    inputs.files(rootProject.fileTree("apks") { include("*/base.apk") })
+    inputs.files(rootProject.fileTree("apks") { include("**/base.apk") })
         .withPropertyName("apkFixtures")
         .withPathSensitivity(PathSensitivity.RELATIVE)
     // The smoke test loads a multidex APK and parses every emitted dex in memory.

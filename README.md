@@ -16,13 +16,14 @@ Unofficial [Morphe](https://morphe.software) patches for Tasker.
 
 ## Supported app
 
-Tasker **6.7.9** only. Download the official APK from [Tasker's website](https://tasker.joaoapps.com/download.html)
-or [directly](https://tasker.joaoapps.com/releases/playstore/Tasker.6.7.9.apk).
+Tasker **6.7.8** and **6.7.9**. Download the official APK from [Tasker's website](https://tasker.joaoapps.com/download.html),
+[6.7.8 directly](https://tasker.joaoapps.com/releases/playstore/Tasker.6.7.8.apk),
+or [6.7.9 directly](https://tasker.joaoapps.com/releases/playstore/Tasker.6.7.9.apk).
 
 ## Install
 
 1. Add this repository to Morphe Manager using **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**.
-2. Download Tasker 6.7.9 from the official link above. Morphe's automatic Google search may not find this paid app.
+2. Download Tasker 6.7.8 or 6.7.9 from the official links above. Morphe's automatic Google search may not find this paid app.
 3. In Morphe Manager, open **Patcher**, choose **Storage**, select the APK, select patches, then patch and install.
 
 Enable **Pre-release patches** for this source in Morphe Manager to receive prereleases; otherwise it uses the stable release.
