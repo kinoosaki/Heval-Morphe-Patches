@@ -33,7 +33,7 @@ Enable **Pre-release patches** for this source in Morphe Manager to receive prer
 The list below is generated from the current release metadata.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v4.1.2](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.1.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-21
+> **[v4.1.3-dev.1](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.1.3-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-21
 
 🚫 ads&nbsp;&nbsp;🛡️ telemetry / tracking&nbsp;&nbsp;💎 premium / pro&nbsp;&nbsp;🔑 license check&nbsp;&nbsp;🔕 prompts / notifications&nbsp;&nbsp;🧪 experimental
 
@@ -43,7 +43,7 @@ The list below is generated from the current release metadata.
 
 | | App | Patches | Latest verified | Type | Google Play |
 |:-:|---|---|---|:-:|:-:|
-| <img src="assets/icons/net.dinglisch.android.taskerm.png" width="20" height="20" alt=""> | **Tasker** | 💎 🧩 2 | `6.7.9` | APK | [Play](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) |
+| <img src="assets/icons/net.dinglisch.android.taskerm.png" width="20" height="20" alt=""> | **Tasker** | 💎 🧩 2 | `6.7.9` <sub>+1 older</sub> | APK | [Play](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) |
 
 ### 🔍 Patch details
 
@@ -52,7 +52,7 @@ The list below is generated from the current release metadata.
 <details>
 <summary><img src="assets/icons/net.dinglisch.android.taskerm.png" width="16" height="16" alt=""> <b>Tasker</b> &nbsp;·&nbsp; 2 patches &nbsp;·&nbsp; <code>net.dinglisch.android.taskerm</code></summary>
 
-Verified on: `6.7.9`
+Verified on: `6.7.9`, `6.7.8`
 
 | Patch | What it does | Default |
 |---|---|:-:|

@@ -1,3 +1,15 @@
+## 4.1.3-dev.1 (2026-11-21)
+
+### ⬆️ Updated apps
+| App | From | To |
+|---|---|---|
+| Tasker | `6.7.9` | `6.7.8`, `6.7.9` |
+
+### 🔧 Other
+- Fixed: Support Tasker 6.7.8 and 6.7.9
+
+**Download:** [patches-4.1.3-dev.1.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.3-dev.1/patches-4.1.3-dev.1.mpp)
+
 ## 4.1.2 (2026-11-21)
 
 ### 🔧 Other
