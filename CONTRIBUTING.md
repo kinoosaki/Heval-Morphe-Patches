@@ -80,7 +80,7 @@ Each app has one `<App>SmokeTest.kt` that patches the real APK and asserts on th
 The tests skip when the APK is missing (APKs are never committed), so run them locally:
 
 ```
-.\gradlew -Pkotlin.daemon.jvmargs=-Xmx4g -Dorg.gradle.jvmargs=-Xmx3g :patches:cleanTest :patches:test --tests <App>SmokeTest --no-build-cache
+.\gradlew -Pkotlin.daemon.jvmargs=-Xmx4g -Dorg.gradle.jvmargs=-Xmx3g :patches:taskerSmokeTest --tests <App>SmokeTest
 ```
 
 Put the APK at `apks/<slug>/base.apk` first. The test fails if the APK's package or version differs

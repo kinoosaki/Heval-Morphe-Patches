@@ -12,7 +12,7 @@ import com.android.tools.smali.dexlib2.Opcode
 /*
  * Count-checked versions of the patcher's smali `addInstruction(s)` extensions.
  *
- * Why: morphe-patcher 1.8.0's InlineSmaliCompiler throws on parser/lexer syntax errors only.
+ * Why: the inline smali compiler throws on parser/lexer syntax errors only.
  * Register width is checked later by smali's tree walker, whose error count the compiler never
  * reads. An instruction whose register does not fit its operand (v16+ in a 4-bit slot:
  * const/4, non-range invoke-*, iget/iput, instance-of, if-eq/ne/lt/ge/gt/le, 12x moves and
@@ -36,7 +36,7 @@ fun MutableMethod.addInstructionsChecked(index: Int, smaliInstructions: String) 
     checkedInsert("addInstructions", smaliInstructions) { addInstructions(index, smaliInstructions) }
 
 /**
- * Checked [addInstructions] appended at the end of the method. morphe-patcher 2.0.0 hides the
+ * Checked [addInstructions] appended at the end of the method. The patcher API hides the
  * index-less `addInstructions(String)`, so the end index is passed explicitly; checkedInsert runs
  * the lambda only after it has checked that the method has a body.
  */

@@ -235,7 +235,7 @@ fun applyPatches(
     // Patcher.invoke() only executes the patches. Patcher.get() finalizes the bytecode context
     // and emits the patched dex files - without it you just re-read the unpatched input dex.
     //
-    // Since morphe-patcher 2.0.0 (default BytecodeMode.STRIP_FAST), PatcherResult.dexFiles is NOT
+    // In the default BytecodeMode.STRIP_FAST, PatcherResult.dexFiles is NOT
     // the app's class set: it holds only the original dex files a patch stripped classes from plus
     // new dex files (numbered after the originals) with the modified classes; original dex files
     // without a modified class are left out (PatcherResult.dexFilesComplete = false), and

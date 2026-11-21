@@ -8,6 +8,7 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 import com.android.tools.smali.dexlib2.iface.reference.StringReference
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Assumptions.assumeTrue
+import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.io.TempDir
 import org.w3c.dom.Element
@@ -27,6 +28,7 @@ private fun Method.params(): List<String> = parameterTypes.map(CharSequence::toS
 private fun Method.hasFlags(vararg flags: AccessFlags): Boolean =
     accessFlags == flags.fold(0) { acc, flag -> acc or flag.value }
 
+@Tag("smoke")
 class TaskerSmokeTest {
 
     @TempDir
