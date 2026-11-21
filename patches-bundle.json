@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-21T11:06:28",
-  "description": "## 4.1.4-dev.1 (2026-11-21)\n\n### 🔧 Other\n- Fixed: Render updated apps as release-note list\n\n**Download:** [patches-4.1.4-dev.1.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.4-dev.1/patches-4.1.4-dev.1.mpp)",
-  "download_url": "https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.4-dev.1/patches-4.1.4-dev.1.mpp",
+  "created_at": "2026-11-21T11:28:31",
+  "description": "## 4.1.4 (2026-11-21)\n\n### 🔧 Other\n- Fixed: Render updated apps as release-note list\n\n**Download:** [patches-4.1.4.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.4/patches-4.1.4.mpp)",
+  "download_url": "https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.4/patches-4.1.4.mpp",
   "signature_download_url": "",
-  "version": "4.1.4-dev.1"
+  "version": "4.1.4"
 }

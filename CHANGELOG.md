@@ -1,3 +1,10 @@
+## 4.1.4 (2026-11-21)
+
+### 🔧 Other
+- Fixed: Render updated apps as release-note list
+
+**Download:** [patches-4.1.4.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.4/patches-4.1.4.mpp)
+
 ## 4.1.4-dev.1 (2026-11-21)
 
 ### 🔧 Other

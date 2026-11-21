@@ -33,7 +33,7 @@ Enable **Pre-release patches** for this source in Morphe Manager to receive prer
 The list below is generated from the current release metadata.
 
 <!-- PATCHES_START EXPANDED -->
-> **[v4.1.4-dev.1](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.1.4-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-21
+> **[v4.1.4](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.1.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-21
 
 🚫 ads&nbsp;&nbsp;🛡️ telemetry / tracking&nbsp;&nbsp;💎 premium / pro&nbsp;&nbsp;🔑 license check&nbsp;&nbsp;🔕 prompts / notifications&nbsp;&nbsp;🧪 experimental
 
