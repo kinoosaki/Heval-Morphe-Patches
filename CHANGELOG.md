@@ -1,3 +1,15 @@
+## 4.1.0-dev.1 (2026-11-21)
+
+### 📱 Tasker `6.7.9`
+- New: Target Tasker 6.7.9 only
+
+### ⬆️ Updated apps
+| App | From | To |
+|---|---|---|
+| Tasker | `6.7.8`, `6.7.9` | `6.7.9` |
+
+**Download:** [patches-4.1.0-dev.1.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.0-dev.1/patches-4.1.0-dev.1.mpp)
+
 ## 4.0.2-dev.1 (2026-11-20)
 
 ### 📱 Tasker `6.7.8`, `6.7.9`
