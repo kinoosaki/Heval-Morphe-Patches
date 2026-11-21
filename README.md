@@ -23,18 +23,27 @@ Two patches, one app, no surprises.
 | 💎 **Enable Full Version** | Unlocks Tasker's full version. | ✅ |
 | 🧩 **GmsCore support** | Lets Tasker sign in with Google through MicroG RE. | ➖ |
 
-Supports Tasker `6.7.9` only, installed from
+Supports Tasker `6.7.9` only, downloaded from
 [tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html).
 
 ## 🚀 Quick start
 
-1. Install [Morphe Manager](https://morphe.software).
-2. Install Tasker `6.7.9` from
-   [tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html).
-3. Tap **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**,
-   or add this repository as a patch source by hand:
-   `https://github.com/kinoosaki/Kinos-Patches`
-4. Pick **Tasker**, choose the patches you want and patch.
+1. **Add this source to Morphe Manager:**
+   - Tap **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**, or add `https://github.com/kinoosaki/Kinos-Patches` manually in Morphe Manager under **Settings > Sources > Patch Sources**.
+2. **Download the Tasker `6.7.9` APK:**
+   - Download the clean, official APK directly to your phone:  
+     👉 **[Tasker 6.7.9 APK Direct Download](https://tasker.joaoapps.com/releases/playstore/Tasker.6.7.9.apk)** *(official page: [tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html))*.
+   - > [!IMPORTANT]
+   - > **Do not use Morphe Manager's "Continue to Google" button:** Tasker is a paid app, so mirrors like APKMirror do not host it. Morphe's automatic Google search will return no valid APKs. Download the APK directly from the link above.
+3. **Patch the APK in Morphe Manager:**
+   - **Method A (via Storage — recommended):**
+     1. Open **Morphe Manager** and tap the **Patcher** tab.
+     2. Tap the **Storage** button (the folder icon in the bottom-right corner).
+     3. Select the downloaded `Tasker.6.7.9.apk` from your phone's **Downloads** folder.
+     4. Select your patches (**Enable Full Version**, and optionally **GmsCore support**), tap **Patch**, and install.
+   - **Method B (Install first):**
+     1. Install the downloaded `Tasker.6.7.9.apk` on your phone (starts as a 7-day trial).
+     2. Open **Morphe Manager** > **Patcher**, select **Tasker** from the **Installed** list, select your patches, tap **Patch**, and install the update.
 
 **Stable or pre-release?** The stable channel follows the
 [latest release](https://github.com/kinoosaki/Kinos-Patches/releases/latest). Turn on
