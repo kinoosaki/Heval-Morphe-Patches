@@ -1,60 +1,35 @@
-# 🧩 Kino's Patches
+# Kino's Patches
 
 <p align="center">
   <a href="https://morphe.software/add-source?github=kinoosaki/Kinos-Patches">
     <img src="https://img.shields.io/badge/%E2%9E%95%20%20Add%20to%20Morphe-1E5AA8?style=for-the-badge" height="46" alt="Add to Morphe">
   </a>
-  <br>
-  <sub>One tap adds this patch source to Morphe Manager</sub>
 </p>
 
 <p align="center">
   <a href="https://github.com/kinoosaki/Kinos-Patches/releases/latest"><img src="https://img.shields.io/github/v/release/kinoosaki/Kinos-Patches?label=stable&color=2ea44f" alt="Latest stable release"></a>
   <a href="https://github.com/kinoosaki/Kinos-Patches/releases"><img src="https://img.shields.io/github/v/release/kinoosaki/Kinos-Patches?include_prereleases&label=pre-release&color=orange" alt="Latest pre-release"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-blue" alt="GPLv3"></a>
-  <a href="https://kinosaki.in"><img src="https://img.shields.io/badge/website-kinosaki.in-1E5AA8" alt="kinosaki.in"></a>
 </p>
 
-A small [Morphe](https://morphe.software) patch source for **Tasker** - and nothing else.
-Two patches, one app, no surprises.
+Unofficial [Morphe](https://morphe.software) patches for Tasker.
 
-| Patch | What it does | Default |
-|---|---|:-:|
-| 💎 **Enable Full Version** | Unlocks Tasker's full version. | ✅ |
-| 🧩 **GmsCore support** | Lets Tasker sign in with Google through MicroG RE. | ➖ |
+## Supported app
 
-Supports Tasker `6.7.9` only, downloaded from
-[tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html).
+Tasker **6.7.9** only. Download the official APK from [Tasker's website](https://tasker.joaoapps.com/download.html)
+or [directly](https://tasker.joaoapps.com/releases/playstore/Tasker.6.7.9.apk).
 
-## 🚀 Quick start
+## Install
 
-1. **Add this source to Morphe Manager:**
-   - Tap **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**, or add `https://github.com/kinoosaki/Kinos-Patches` manually in Morphe Manager under **Settings > Sources > Patch Sources**.
-2. **Download the Tasker `6.7.9` APK:**
-   - Download the clean, official APK directly to your phone:  
-     👉 **[Tasker 6.7.9 APK Direct Download](https://tasker.joaoapps.com/releases/playstore/Tasker.6.7.9.apk)** *(official page: [tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html))*.
-   - > [!IMPORTANT]
-   - > **Do not use Morphe Manager's "Continue to Google" button:** Tasker is a paid app, so mirrors like APKMirror do not host it. Morphe's automatic Google search will return no valid APKs. Download the APK directly from the link above.
-3. **Patch the APK in Morphe Manager:**
-   - **Method A (via Storage — recommended):**
-     1. Open **Morphe Manager** and tap the **Patcher** tab.
-     2. Tap the **Storage** button (the folder icon in the bottom-right corner).
-     3. Select the downloaded `Tasker.6.7.9.apk` from your phone's **Downloads** folder.
-     4. Select your patches (**Enable Full Version**, and optionally **GmsCore support**), tap **Patch**, and install.
-   - **Method B (Install first):**
-     1. Install the downloaded `Tasker.6.7.9.apk` on your phone (starts as a 7-day trial).
-     2. Open **Morphe Manager** > **Patcher**, select **Tasker** from the **Installed** list, select your patches, tap **Patch**, and install the update.
+1. Add this repository to Morphe Manager using **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**.
+2. Download Tasker 6.7.9 from the official link above. Morphe's automatic Google search may not find this paid app.
+3. In Morphe Manager, open **Patcher**, choose **Storage**, select the APK, select patches, then patch and install.
 
-**Stable or pre-release?** The stable channel follows the
-[latest release](https://github.com/kinoosaki/Kinos-Patches/releases/latest). Turn on
-**Pre-release patches** for this source in Morphe Manager to get fixes earlier.
+Enable **Pre-release patches** for this source in Morphe Manager to receive prereleases; otherwise it uses the stable release.
 
-## 🩹 Patches list
+## Patches
 
-Tasker `6.7.9` is the only supported version (shown in Morphe Manager). Install it from
-[tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html) - that page is the
-only APK source this bundle targets. If a Tasker update breaks a patch,
-[open an issue](https://github.com/kinoosaki/Kinos-Patches/issues).
+The list below is generated from the current release metadata.
 
 <!-- PATCHES_START EXPANDED -->
 > **[v4.1.2](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.1.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-21
@@ -88,46 +63,15 @@ Verified on: `6.7.9`
 <sub>✅ on by default&nbsp;&nbsp;➖ off by default (enable it in Morphe Manager)</sub>
 <!-- PATCHES_END -->
 
-## ⚠️ Good to know
+## Notes
 
-- **Tasker is a paid app.** Enable Full Version bypasses the local licence check; it does not
-  add anything the app cannot do offline. If you rely on Tasker's paid features, consider
-  buying it.
-- **Only local checks can be unlocked.** Anything Tasker validates on a server stays as it is;
-  this bundle does not fake server responses.
-- **Google sign-in may break.** Patched apps are re-signed, so "Sign in with Google" can stop
-  working. GmsCore support routes Tasker's sign-in through
-  [MicroG RE](https://github.com/MorpheApp/MicroG-RE/releases) so it keeps working; enable it in Morphe
-  Manager before patching if you use Google Drive backup.
-- **GmsCore support only moves sign-in and token clients.** Location, Maps, FCM and the rest of
-  Play Services are left untouched, so the patch stays compatible with stock Tasker behaviour.
-- **Keep a backup.** Patch a copy of the APK and keep Tasker's backup (`.xml` export) somewhere
-  safe before you install the patched build.
+- **Enable Full Version** bypasses Tasker's local licence check; it does not grant server-side features. Tasker is paid—consider purchasing it.
+- **GmsCore support** is optional. It routes Google sign-in and token requests through [MicroG RE](https://github.com/MorpheApp/MicroG-RE/releases); other Google Play services, including location and FCM, remain unchanged.
+- Back up the original APK and Tasker data before installing a patched build.
+- Patches and tests are AI-assisted. Smoke tests check emitted bytecode when a matching APK fixture is available; fixtures are not committed, so tests may skip. Review and verify before use.
 
-## 💬 Contact
+## Development and support
 
-- Website: **[https://kinosaki.in](https://kinosaki.in)**
-- Bugs and questions: [open an issue](https://github.com/kinoosaki/Kinos-Patches/issues).
+See [CONTRIBUTING.md](CONTRIBUTING.md) to report issues or contribute. To build the bundle, run `./gradlew :patches:buildAndroid`; see the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation) for registry credentials.
 
-## 🤖 How the patches are made
-
-> **AI-assisted patches.** The code analysis, patch code and smoke tests are written with AI
-> assistance. Smoke tests apply patches to matching APK fixtures and check emitted bytecode, but
-> APKs are not committed and tests skip when a fixture is absent. Check the target version and
-> verify the patched app before use; no warranty.
-
-## 🛠️ Building
-
-```
-./gradlew :patches:buildAndroid
-```
-
-The bundle is written to `patches/build/libs/`. The Morphe Gradle plugin is downloaded from
-GitHub Packages, so set `GITHUB_ACTOR` and `GITHUB_TOKEN` (a token with `read:packages`)
-first. See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation) for
-details.
-
-## 📜 License
-
-Kino's Patches is licensed under the [GNU General Public License v3.0](LICENSE). The Tasker
-patch code descends from Heval's Morphe Patches; see [NOTICE](NOTICE) for attribution.
+Licensed under [GPL-3.0](LICENSE). See [NOTICE](NOTICE) for attribution.
