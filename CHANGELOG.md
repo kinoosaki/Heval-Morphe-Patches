@@ -18,6 +18,14 @@
 
 ### 🔧 Other
 - Fixed: Clean up dead helpers, drop ARSCLib and clear fingerprint matches
+- Faster: Optimize GmsCore scoped bytecode filtering and probe bash usability in tests
+
+**Download:** [patches-4.1.2-dev.1.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.2-dev.1/patches-4.1.2-dev.1.mpp)
+
+## 4.1.2-dev.1 (2026-11-21)
+
+### 🔧 Other
+- Fixed: Clean up dead helpers, drop ARSCLib and clear fingerprint matches
 
 **Download:** [patches-4.1.2-dev.1.mpp](https://github.com/kinoosaki/Kinos-Patches/releases/download/v4.1.2-dev.1/patches-4.1.2-dev.1.mpp)
 
