@@ -29,7 +29,7 @@
               },
               "isExperimental": false,
               "minSdk": null,
-              "description": "For paid versions, download the APK directly from https://tasker.joaoapps.com/download.html."
+              "description": null
             }
           ]
         }
@@ -65,7 +65,7 @@
               },
               "isExperimental": false,
               "minSdk": null,
-              "description": "For paid versions, download the APK directly from https://tasker.joaoapps.com/download.html."
+              "description": null
             }
           ]
         }
