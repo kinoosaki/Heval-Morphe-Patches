@@ -88,7 +88,7 @@ Verified on: `6.7.9`
   this bundle does not fake server responses.
 - **Google sign-in may break.** Patched apps are re-signed, so "Sign in with Google" can stop
   working. GmsCore support routes Tasker's sign-in through
-  [MicroG RE](https://github.com/microg/GmsCore) so it keeps working; enable it in Morphe
+  [MicroG RE](https://github.com/MorpheApp/MicroG-RE/releases) so it keeps working; enable it in Morphe
   Manager before patching if you use Google Drive backup.
 - **GmsCore support only moves sign-in and token clients.** Location, Maps, FCM and the rest of
   Play Services are left untouched, so the patch stays compatible with stock Tasker behaviour.
