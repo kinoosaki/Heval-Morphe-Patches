@@ -23,15 +23,18 @@ Two patches, one app, no surprises.
 | 💎 **Enable Full Version** | Unlocks Tasker's full version. | ✅ |
 | 🧩 **GmsCore support** | Lets Tasker sign in with Google through MicroG RE. | ➖ |
 
-Verified on Tasker `6.7.8`. Other versions may work but are not guaranteed.
+Supports Tasker `6.7.9` only, installed from
+[tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html).
 
 ## 🚀 Quick start
 
 1. Install [Morphe Manager](https://morphe.software).
-2. Tap **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**,
+2. Install Tasker `6.7.9` from
+   [tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html).
+3. Tap **[Add to Morphe](https://morphe.software/add-source?github=kinoosaki/Kinos-Patches)**,
    or add this repository as a patch source by hand:
    `https://github.com/kinoosaki/Kinos-Patches`
-3. Pick **Tasker**, choose the patches you want and patch.
+4. Pick **Tasker**, choose the patches you want and patch.
 
 **Stable or pre-release?** The stable channel follows the
 [latest release](https://github.com/kinoosaki/Kinos-Patches/releases/latest). Turn on
@@ -39,12 +42,13 @@ Verified on Tasker `6.7.8`. Other versions may work but are not guaranteed.
 
 ## 🩹 Patches list
 
-Tasker `6.7.8` is the version the patches were verified on (shown in Morphe Manager).
-Older or newer versions may work but are not guaranteed; if an app update breaks a patch,
+Tasker `6.7.9` is the only supported version (shown in Morphe Manager). Install it from
+[tasker.joaoapps.com/download.html](https://tasker.joaoapps.com/download.html) - that page is the
+only APK source this bundle targets. If a Tasker update breaks a patch,
 [open an issue](https://github.com/kinoosaki/Kinos-Patches/issues).
 
 <!-- PATCHES_START EXPANDED -->
-> **[v4.0.1](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-18
+> **[v4.1.0-dev.1](https://github.com/kinoosaki/Kinos-Patches/releases/tag/v4.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;**1** apps&nbsp;&nbsp;•&nbsp;&nbsp;**2** patches&nbsp;&nbsp;•&nbsp;&nbsp;updated 2026-11-21
 
 🚫 ads&nbsp;&nbsp;🛡️ telemetry / tracking&nbsp;&nbsp;💎 premium / pro&nbsp;&nbsp;🔑 license check&nbsp;&nbsp;🔕 prompts / notifications&nbsp;&nbsp;🧪 experimental
 
@@ -54,7 +58,7 @@ Older or newer versions may work but are not guaranteed; if an app update breaks
 
 | | App | Patches | Latest verified | Type | Google Play |
 |:-:|---|---|---|:-:|:-:|
-| <img src="assets/icons/net.dinglisch.android.taskerm.png" width="20" height="20" alt=""> | **Tasker** | 💎 🧩 2 | `6.7.8` | APK | [Play](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) |
+| <img src="assets/icons/net.dinglisch.android.taskerm.png" width="20" height="20" alt=""> | **Tasker** | 💎 🧩 2 | `6.7.9` | APK | [Play](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) |
 
 ### 🔍 Patch details
 
@@ -63,7 +67,7 @@ Older or newer versions may work but are not guaranteed; if an app update breaks
 <details>
 <summary><img src="assets/icons/net.dinglisch.android.taskerm.png" width="16" height="16" alt=""> <b>Tasker</b> &nbsp;·&nbsp; 2 patches &nbsp;·&nbsp; <code>net.dinglisch.android.taskerm</code></summary>
 
-Verified on: `6.7.8`
+Verified on: `6.7.9`
 
 | Patch | What it does | Default |
 |---|---|:-:|

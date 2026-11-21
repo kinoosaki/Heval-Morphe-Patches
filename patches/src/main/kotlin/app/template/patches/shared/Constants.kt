@@ -33,21 +33,28 @@ object Constants {
     // isGooglePlayServicesAvailable, location, Home/Matter, Maps, Dynamite, FCM and the c2dm
     // manifest entries are untouched. Smoke test (bytecode + manifest) and a CLI run without -f;
     // 2026-11-03 emulator (patched build of the release batch, stock control): Google Drive backup sign-in showed MicroG RE's account picker and signed in.
-    // 2026-11-04: updated to version 6.7.8 (versionCode 5454; APKMirror universal APK, arm64-v8a +
-    // armeabi-v7a, same CN=Lee Wilmot signer; paid, so not on the spare Play account). The startup
+    // 2026-11-04: updated to version 6.7.8 (versionCode 5454; universal APK; same CN=Lee Wilmot
+    // signer; paid, so not on the spare Play account). The startup
     // result helper now takes (result, Context, boolean) instead of (result, boolean, Context), so
     // LicenseResultFingerprint accepts either order; the other anchors are unchanged (R8 renames
     // only: rf.w$a -> nt.x$a, rf.a0 -> nt.b0). TaskerSmokeTest passes, including every login-only
     // GmsCore assertion (the four sign-in actions routed, location/Home/telemetry/credentials
     // clients, FCM, Dynamite and the c2dm manifest entries untouched). Emulator not re-run.
-    // 2026-11-18: restored after the 2026-11-14 drop (6.7.9 is paid on Play and no trusted mirror
-    // carries it). The target stays 6.7.8 (5454), the last verified APK; nothing was re-checked.
+    // 2026-11-18: restored after the 2026-11-14 drop.
+    // 2026-11-20: 6.7.9 (versionCode 5455) is the only target; 6.7.8 (5454) was dropped the same
+    // day. Tasker APKs come from https://tasker.joaoapps.com/download.html. Checked against the
+    // 6.7.9 APK from there: same CN=Lee Wilmot v2 signer, and every anchor the two patches use is
+    // still present (LicenseStatus with its Licensed/Retry/Unlicensed fields, the
+    // Licensed/Retrying/Unlicensed labels, "Checking cached only", the GmsCore action strings,
+    // "<<default account>>" and the sign-in classes). TaskerSmokeTest now expects a 6.7.9 fixture
+    // at apks/tasker/base.apk and skips when it is absent (CI has no fixture), so the patched
+    // bytecode has not been re-run on 6.7.9 yet.
     val COMPATIBILITY_TASKER = Compatibility(
         name = "Tasker",
         packageName = "net.dinglisch.android.taskerm",
         apkFileType = ApkFileType.APK,
         appIconColor = 0x4CAF50,
         signatures = setOf("973fe25b9be28fb7436d49582b04277767c852539be31783d134a55621b6636d"), // CN=Lee Wilmot
-        targets = listOf(AppTarget(version = "6.7.8", versionCode = 5454))
+        targets = listOf(AppTarget(version = "6.7.9", versionCode = 5455)),
     )
 }
